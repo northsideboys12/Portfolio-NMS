@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'portfolio': {
             image: "assets/previewPortfolio.png",
             techs: ["HTML5", "CSS3", "JS", "Particles.js", "Lenis"],
-            links: [{ text: "GitHub", url: "https://github.com/BazeOnigiri/Portfolio" }],
+            links: [{ text: "GitHub", url: "https://github.com/BazeOnigiri/Portfolio-NMS" }],
             fr: {
                 title: "Portfolio Personnel", date: "Octobre 2025", type: "Projet Personnel",
                 description: `Ce portfolio a été conçu de zéro pour présenter mon parcours. Identité visuelle inspirée de "No Man's Sky". Site statique optimisé avec navigation fluide.`
