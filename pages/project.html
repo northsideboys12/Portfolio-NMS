@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet - Timothée Kiehl</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="particles-js"></div>
+
+    <div class="container">
+        <header>
+            <nav>
+                <a href="index.html" class="btn-back"><i class="fa-solid fa-arrow-left"></i> <span data-lang="btn-back">Retour</span></a>
+                <div style="flex-grow:1"></div>
+                <button id="lang-toggle-btn">EN</button>
+            </nav>
+        </header>
+
+        <main class="project-detail-view">
+            <h1 id="detail-title" class="detail-title">Chargement...</h1>
+            
+            <div class="detail-grid">
+                <div class="detail-left">
+                    <img id="detail-image" src="" alt="Project Preview" class="detail-image">
+                    <div class="detail-desc-box">
+                        <h3 data-lang="desc-title">Description</h3>
+                        <p id="detail-desc">Chargement de la description...</p>
+                    </div>
+                </div>
+
+                <div class="detail-right">
+                    <div class="detail-meta">
+                        <span id="detail-date">Date</span>
+                        <span id="detail-type">Type</span>
+                    </div>
+                    
+                    <div class="detail-techs">
+                        <h3 data-lang="techs-title">Technologies</h3>
+                        <div id="detail-tech-list" class="project-tech">
+                            </div>
+                    </div>
+
+                    <div class="detail-links" id="detail-links">
+                        </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p data-lang="footer-p">Fait avec ❤️ par Timothée Kiehl.</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

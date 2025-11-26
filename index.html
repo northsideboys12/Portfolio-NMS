@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Timothée Kiehl</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="particles-js"></div>
+
+    <div class="container">
+        <header>
+            <nav>
+                <a href="#profil" data-lang="nav-profil">Profil</a>
+                <a href="#competences" data-lang="nav-competences">Compétences</a>
+                <a href="#education" data-lang="nav-education">Éducation</a>
+                <a href="#projets" data-lang="nav-projets">Projets</a>
+                <a href="#interets" data-lang="nav-interets">Intérêts</a>
+                <a href="#contact" data-lang="nav-contact">Contact</a>
+                
+                <button id="lang-toggle-btn">EN</button>
+            </nav>
+        </header>
+
+        <main>
+            <section id="profil" class="content-section">
+                <h2 data-lang="profil-titre">[ PROFIL ]</h2>
+                
+                <div class="profil-grid">
+                    <div class="profil-desc">
+                        <p data-lang="profil-p">
+                            Étudiant motivé en deuxième année de BUT Informatique. Actuellement à la recherche d'un stage pour compléter ma deuxième année, 
+                            spécifiquement en développement .NET8 C# ou développement web. Je reste ouvert à l'apprentissage de nouveaux langages 
+                            et technologies.
+                        </p>
+                    </div>
+
+                    <div class="profil-identity">
+                        <h1>Timothée Kiehl</h1>
+                        <div class="profile-pic-container">
+                            <img src="assets/imgPROFIL.jpeg" alt="Photo de Timothée Kiehl" class="profile-pic">
+                        </div>
+                    </div>
+
+                    <div class="profil-action">
+                        <a href="assets/CV_International.pdf" class="btn-download" data-lang="profil-btn-cv">
+                            <i class="fa-solid fa-download"></i> Télécharger mon CV
+                        </a>
+                    </div>
+
+                    <div class="profil-typed">
+                        <h3><span id="typed-text"></span></h3>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="section-divider">
+
+            <section id="competences" class="content-section">
+                <h2 data-lang="competences-titre">[ COMPÉTENCES ]</h2>
+
+                <!-- Hard skills row (icons + progress) -->
+                <div class="hard-skills-row">
+                    <div class="skills-list-inline">
+                        <div class="skill-inline">
+                            <i class="devicon-csharp-plain" title="C#"></i>
+                            <span class="skill-inline-name">C#</span>
+                            <div class="progress-bg small"><div class="progress-fill" style="width:70%"></div></div>
+                        </div>
+                        <div class="skill-inline">
+                            <i class="devicon-dotnetcore-plain" title=".NET"></i>
+                            <span class="skill-inline-name">.NET</span>
+                            <div class="progress-bg small"><div class="progress-fill" style="width:70%"></div></div>
+                        </div>
+                        <div class="skill-inline">
+                            <i class="devicon-python-plain" title="Python"></i>
+                            <span class="skill-inline-name">Python</span>
+                            <div class="progress-bg small"><div class="progress-fill" style="width:70%"></div></div>
+                        </div>
+                        <div class="skill-inline">
+                            <i class="devicon-html5-plain" title="HTML5"></i>
+                            <span class="skill-inline-name">HTML5</span>
+                            <div class="progress-bg small"><div class="progress-fill" style="width:70%"></div></div>
+                        </div>
+                        <div class="skill-inline">
+                            <i class="devicon-css3-plain" title="CSS3"></i>
+                            <span class="skill-inline-name">CSS3</span>
+                            <div class="progress-bg small"><div class="progress-fill" style="width:70%"></div></div>
+                        </div>
+                        <div class="skill-inline">
+                            <i class="devicon-javascript-plain" title="JS"></i>
+                            <span class="skill-inline-name">JavaScript</span>
+                            <div class="progress-bg small"><div class="progress-fill" style="width:70%"></div></div>
+                        </div>
+                        <div class="skill-inline">
+                            <i class="devicon-php-plain" title="PHP"></i>
+                            <span class="skill-inline-name">PHP</span>
+                            <div class="progress-bg small"><div class="progress-fill" style="width:70%"></div></div>
+                        </div>
+                        <div class="skill-inline">
+                            <i class="devicon-laravel-plain" title="Laravel"></i>
+                            <span class="skill-inline-name">Laravel</span>
+                            <div class="progress-bg small"><div class="progress-fill" style="width:70%"></div></div>
+                        </div>
+                        <div class="skill-inline">
+                            <i class="devicon-postgresql-plain" title="PostgreSQL"></i>
+                            <span class="skill-inline-name">PostgreSQL</span>
+                            <div class="progress-bg small"><div class="progress-fill" style="width:70%"></div></div>
+                        </div>
+                        <div class="skill-inline">
+                            <i class="devicon-git-plain" title="Git"></i>
+                            <span class="skill-inline-name">Git</span>
+                            <div class="progress-bg small"><div class="progress-fill" style="width:70%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft skills + Languages below -->
+                <div class="soft-lang-grid">
+                    <div class="soft-column">
+                        <h3 data-lang="comp-soft">Savoir-être</h3>
+                        <ul class="soft-list">
+                            <li data-lang="soft-team">Travail d'équipe</li>
+                            <li data-lang="soft-autonomy">Autonomie</li>
+                            <li data-lang="soft-adapt">Adaptabilité</li>
+                            <li data-lang="soft-problem">Résolution de problèmes</li>
+                            <li data-lang="soft-curiosity">Curiosité</li>
+                        </ul>
+                    </div>
+
+                    <div class="lang-column">
+                        <h3 data-lang="langues-titre">Langues</h3>
+                        <ul class="langues-list-simple">
+                            <li><strong data-lang="langue1-nom">Français:</strong> <span data-lang="langue1-lvl">(Natif)</span></li>
+                            <li><strong data-lang="langue2-nom">Anglais:</strong> <span data-lang="langue2-lvl">(B2)</span></li>
+                            <li><strong data-lang="langue3-nom">Allemand:</strong> <span data-lang="langue3-lvl">(A2)</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="section-divider">
+
+            <section id="education" class="content-section">
+                <h2 data-lang="education-titre">[ ÉDUCATION ]</h2>
+                <ul class="education-list">
+                    <li>
+                        <span class="education-date" data-lang="education1-date">2024 - 2027</span>
+                        <h3 data-lang="education1-titre">BUT Informatique</h3>
+                        <p data-lang="education1-loc">University of Savoy/IUT Annecy - Annecy-le-Vieux, France</p>
+                    </li>
+                    <li>
+                        <span class="education-date" data-lang="education2-date">2022 - 2024</span>
+                        <h3 data-lang="education2-titre">Baccalauréat Général (Spé. NSI & Maths)</h3>
+                        <p data-lang="education2-loc">Lycée Anna de Noailles - Evian-les-Bains, France</p>
+                    </li>
+                </ul>
+            </section>
+
+            <hr class="section-divider">
+
+            <section id="projets" class="content-section">
+                <h2 data-lang="projets-titre">[ PROJETS ]</h2>
+
+                <div class="filter-controls">
+                    <button class="filter-btn active" data-filter="all" data-lang="filter-all">Tous</button>
+                    <button class="filter-btn" data-filter="universitaire" data-lang="filter-uni">Universitaire</button>
+                    <button class="filter-btn" data-filter="personnel" data-lang="filter-perso">Personnel</button>
+                    <button class="filter-btn" data-filter="csharp" data-lang="filter-csharp">C#</button>
+                    <button class="filter-btn" data-filter="web" data-lang="filter-web">Web</button>
+                </div>
+
+                <div class="project-grid">
+                    <div class="project-tile" onclick="goToProject('laravel')" data-type="universitaire" data-tech="laravel php web">
+                        <img src="assets/imgWIP.png" alt="Projet Laravel" class="project-image">
+                        <div class="project-content">
+                            <span class="project-date" data-lang="projet1-date">Printemps 2025</span>
+                            <span class="project-type" data-project="laravel"></span>
+                            <h3 data-lang="projet1-titre">Projet Web (Laravel)</h3>
+                            <p class="project-preview" data-project="laravel"></p>
+                        </div>
+                    </div>
+                    
+                    <div class="project-tile" onclick="goToProject('nicolas')" data-type="universitaire" data-tech="csharp net wpf">
+                        <img src="assets/previewNICOLAS.png" alt="Projet C#" class="project-image">
+                        <div class="project-content">
+                            <span class="project-date" data-lang="projet2-date">Automne 2024</span>
+                            <span class="project-type" data-project="nicolas"></span>
+                            <h3 data-lang="projet2-titre">Projet C#.NET8 WPF</h3>
+                            <p class="project-preview" data-project="nicolas"></p>
+                        </div>
+                    </div>
+
+                    <div class="project-tile" onclick="goToProject('portfolio')" data-type="personnel" data-tech="html css js web">
+                        <img src="assets/previewPortfolio.png" alt="Portfolio" class="project-image">
+                        <div class="project-content">
+                            <span class="project-date" data-lang="projet3-date">Octobre 2025</span>
+                            <span class="project-type" data-project="portfolio"></span>
+                            <h3 data-lang="projet3-titre">Ce Portfolio</h3>
+                            <p class="project-preview" data-project="portfolio"></p>
+                        </div>
+                    </div>
+
+                    <div class="project-tile" onclick="goToProject('cailloux')" data-type="universitaire" data-tech="html css js web phaser">
+                        <img src="assets/previewCailloux.png" alt="Jeu Cailloux" class="project-image">
+                        <div class="project-content">
+                            <span class="project-date" data-lang="projet4-date">Mars 2025</span>
+                            <span class="project-type" data-project="cailloux"></span>
+                            <h3 data-lang="projet4-titre">Jeu 'Cailloux'</h3>
+                            <p class="project-preview" data-project="cailloux"></p>
+                        </div>
+                    </div>
+
+                    <div class="project-tile" onclick="goToProject('premon')" data-type="universitaire" data-tech="csharp net wpf">
+                        <img src="assets/previewPREMON.png" alt="Jeu Premon" class="project-image">
+                        <div class="project-content">
+                            <span class="project-date" data-lang="projet5-date">Mai 2025</span>
+                            <span class="project-type" data-project="premon"></span>
+                            <h3 data-lang="projet5-titre">Jeu 'Premon'</h3>
+                            <p class="project-preview" data-project="premon"></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- In-page Project Detail (hidden by default) -->
+            <section id="project-detail" class="content-section" style="display:none;">
+                <nav style="display:flex; align-items:center; gap:10px; margin-bottom:20px;">
+                    <a href="#" id="detail-back" class="btn-back"><i class="fa-solid fa-arrow-left"></i> <span data-lang="btn-back">Retour</span></a>
+                </nav>
+
+                <main class="project-detail-view">
+                    <h1 id="detail-title" class="detail-title">Chargement...</h1>
+                    <div class="detail-grid">
+                        <div class="detail-left">
+                            <img id="detail-image" src="assets/imgWIP.png" alt="Project Preview" class="detail-image">
+                            <div class="detail-desc-box">
+                                <h3 data-lang="desc-title">Description</h3>
+                                <p id="detail-desc">Chargement de la description...</p>
+                            </div>
+                        </div>
+
+                        <div class="detail-right">
+                            <div class="detail-meta">
+                                <span id="detail-date">Date</span>
+                                <span id="detail-type">Type</span>
+                            </div>
+
+                            <div class="detail-techs">
+                                <h3 data-lang="techs-title">Technologies</h3>
+                                <div id="detail-tech-list" class="project-tech"></div>
+                            </div>
+
+                            <div class="detail-links" id="detail-links"></div>
+                        </div>
+                    </div>
+                </main>
+            </section>
+
+            <hr class="section-divider">
+
+            <section id="interets" class="content-section">
+                <h2 data-lang="interets-titre">[ CENTRES D'INTÉRÊT ]</h2>
+                <div class="interets-grid">
+                    <div class="interet-col">
+                        <h3 data-lang="interet-music">Musique</h3>
+                        <p>Nujabes, 2Pac, Dire Straits...</p>
+                        <div class="spotify-stack">
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6CC3OI7FCKYRiMWHPvKOmG?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0tq2BSvjmDlLVWhAySe6ga?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0PVZR8qMnewlf1aQ7nGaC4?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="interet-col">
+                        <h3 data-lang="interet-geek">Culture Geek</h3>
+                        <p>Manhwa, Manhua, Star Wars</p>
+                        <div class="interet-img-container">
+                            <img src="assets/obisus.jpg" alt="Star Wars / Geek" class="interet-img">
+                        </div>
+                    </div>
+
+                    <div class="interet-col">
+                        <h3 data-lang="interet-sport">Sport</h3>
+                        <p>Volleyball, Snowboard</p>
+                        <div class="interet-img-container">
+                            <img src="assets/snowboard.jpg" alt="Sport" class="interet-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="section-divider">
+
+            <section id="contact" class="content-section">
+                <h2 data-lang="contact-titre">[ CONTACT ]</h2>
+                <p data-lang="contact-p">Prêt à rejoindre votre équipe. Contactez-moi :</p>
+
+                <div class="contact-container">
+                    <form action="https://formspree.io/f/mwpyywol" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="email" data-lang="form-email">Votre Email</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-lang="form-msg">Message</label>
+                            <textarea name="message" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-download" data-lang="form-send">Envoyer</button>
+                    </form>
+
+                    <div class="contact-info">
+                        <ul class="contact-list">
+                            <li>
+                                <i class="fa-brands fa-linkedin"></i>
+                                <a href="https://www.linkedin.com/in/timoth%C3%A9e-kiehl-0a0742273/" target="_blank">LinkedIn</a>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-github"></i>
+                                <a href="https://github.com/BazeOnigiri" target="_blank">GitHub</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-map-marker-alt"></i>
+                                <a href="https://www.google.fr/maps/place/Annecy" target="_blank">Annecy, France</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p data-lang="footer-p">Fait avec ❤️ par Timothée Kiehl.</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
