@@ -1,20 +1,17 @@
-/* --- STYLE.CSS - THÈME NO MAN'S SKY (VERSION REFONTE) --- */
 
-/* --- 1. Variables de Couleur (Palette NMS) --- */
 :root {
-    --color-background: #1a091c;  /* Violet/Noir spatial très sombre */
-    --color-container-bg: rgba(29, 17, 39, 0.7); /* Violet foncé transparent (plus opaque pour lisibilité) */
-    --color-border: #71254A;       /* Magenta/Violet pour bordures */
-    --color-primary: #62DBAC;       /* Bleu-vert "Aquamarine" pour accents */
-    --color-secondary: #D9AF7B;     /* Or/Beige pour accents secondaires */
-    --color-text-primary: #F3EAB7;  /* Blanc cassé "Menoth" pour texte principal */
-    --color-text-dim: #a9a28a;      /* Texte grisé */
+    --color-background: #1a091c;  
+    --color-container-bg: rgba(29, 17, 39, 0.7); 
+    --color-border: #71254A;      
+    --color-primary: #62DBAC;       
+    --color-secondary: #D9AF7B;    
+    --color-text-primary: #F3EAB7;  
+    --color-text-dim: #a9a28a;      
     
     --font-heading: 'Orbitron', sans-serif;
     --font-body: 'Exo', sans-serif;
 }
 
-/* --- 2. Réinitialisation et Fond --- */
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -33,7 +30,6 @@ body {
     overflow-x: hidden;
 }
 
-/* --- 3. Fond Particles.js --- */
 #particles-js {
     position: fixed;
     width: 100%;
@@ -44,14 +40,12 @@ body {
     background-color: var(--color-background);
 }
 
-/* --- 4. Conteneur Principal --- */
 .container {
     width: 90%;
     max-width: 1100px;
     margin: 40px auto;
     padding: 25px;
     
-    /* Effet UI No Man's Sky */
     background: var(--color-container-bg);
     border: 1px solid var(--color-border);
     backdrop-filter: blur(4px);
@@ -60,7 +54,6 @@ body {
     border-radius: 8px;
 }
 
-/* --- 5. Typographie --- */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
     color: var(--color-primary);
@@ -92,7 +85,6 @@ a:hover, a:focus {
     outline: none;
 }
 
-/* --- 6. Sections et Séparateurs --- */
 .content-section {
     padding: 20px 0;
 }
@@ -108,7 +100,6 @@ hr.section-divider {
     margin: 40px 0;
 }
 
-/* --- 7. Header et Navigation --- */
 header {
     border-bottom: 1px solid var(--color-border);
     margin-bottom: 20px;
@@ -136,7 +127,6 @@ nav a:hover, nav a:focus {
     background-color: rgba(98, 219, 172, 0.1);
 }
 
-/* Boutons (Langue, Téléchargement, Retour, Submit) */
 #lang-toggle-btn, .btn-download, .btn-back, button[type="submit"] {
     font-family: var(--font-heading);
     background-color: transparent;
@@ -160,7 +150,6 @@ nav a:hover, nav a:focus {
     box-shadow: 0 0 15px var(--color-primary);
 }
 
-/* --- 8. SECTION PROFIL (NOUVELLE GRILLE 2x2) --- */
 .profil-grid {
     display: grid;
     grid-template-columns: 60% 40%;
@@ -227,7 +216,6 @@ nav a:hover, nav a:focus {
     color: var(--color-primary);
 }
 
-/* --- 9. SECTION COMPÉTENCES (3 COLONNES) --- */
 .competences-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -235,7 +223,6 @@ nav a:hover, nav a:focus {
     margin-top: 20px;
 }
 
-/* Hard skills inline row + soft/lang two-column grid */
 .hard-skills-row {
     margin-top: 10px;
     margin-bottom: 18px;
@@ -274,7 +261,6 @@ nav a:hover, nav a:focus {
     .soft-lang-grid { grid-template-columns: 1fr; }
 }
 
-/* Colonne 1: Savoir-Faire (Tech Icons) */
 .tech-list-mini { 
     display: flex; 
     flex-wrap: wrap; 
@@ -290,7 +276,6 @@ nav a:hover, nav a:focus {
     color: var(--color-secondary); 
 }
 
-/* Colonne 2: Savoir-Être (Progress Bars) */
 .soft-skill { 
     margin-bottom: 15px; 
 }
@@ -313,7 +298,6 @@ nav a:hover, nav a:focus {
     box-shadow: 0 0 5px var(--color-primary); 
 }
 
-/* Colonne 3: Langues */
 .langues-list-simple { 
     list-style: none; 
     padding: 0;
@@ -327,7 +311,6 @@ nav a:hover, nav a:focus {
     border-radius: 0 4px 4px 0;
 }
 
-/* --- 10. SECTION ÉDUCATION --- */
 .education-list {
     list-style: none;
     padding-left: 20px;
@@ -359,7 +342,6 @@ nav a:hover, nav a:focus {
     margin: 5px 0;
 }
 
-/* --- 11. SECTION PROJETS (FILTRES + GRILLE) --- */
 .filter-controls {
     display: flex;
     flex-wrap: wrap;
@@ -387,7 +369,6 @@ nav a:hover, nav a:focus {
     border-color: var(--color-primary);
 }
 
-/* Grille des projets */
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -402,7 +383,7 @@ nav a:hover, nav a:focus {
     display: flex;
     flex-direction: column;
     transition: all 0.3s ease;
-    cursor: pointer; /* Indique que c'est cliquable */
+    cursor: pointer; 
 }
 
 .project-tile.hidden {
@@ -458,11 +439,10 @@ nav a:hover, nav a:focus {
     font-size: 0.95rem;
     margin-top: 8px;
     line-height: 1.3;
-    max-height: 3.9rem; /* ~3 lines */
+    max-height: 3.9rem; 
     overflow: hidden;
 }
 
-/* --- 12. SECTION INTÉRÊTS (3 COLONNES) --- */
 .interets-grid { 
     display: grid; 
     grid-template-columns: repeat(3, 1fr); 
@@ -502,7 +482,6 @@ nav a:hover, nav a:focus {
     color: var(--color-text-dim);
 }
 
-/* --- 13. SECTION CONTACT (FORMSPREE) --- */
 .contact-container { 
     display: flex; 
     flex-wrap: wrap; 
@@ -564,7 +543,6 @@ nav a:hover, nav a:focus {
     font-size: 1.3rem;
 }
 
-/* --- 14. PAGE PROJET DÉDIÉE (project.html) --- */
 .project-detail-view { 
     padding-top: 20px; 
 }
@@ -579,11 +557,10 @@ nav a:hover, nav a:focus {
 
 .detail-grid { 
     display: grid; 
-    grid-template-columns: 7fr 3fr; /* 70% - 30% approx */
+    grid-template-columns: 7fr 3fr; 
     gap: 40px; 
 }
 
-/* Skills list for savoir-faire */
 .skills-list {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -637,7 +614,7 @@ nav a:hover, nav a:focus {
 }
 
 .detail-desc-box p { 
-    white-space: pre-line; /* Préserve les sauts de ligne du JS */
+    white-space: pre-line; 
     font-size: 1.1rem; 
     line-height: 1.8; 
     text-align: justify;
@@ -698,7 +675,6 @@ nav a:hover, nav a:focus {
     color: #000; 
 }
 
-/* --- 15. Footer --- */
 footer {
     text-align: center;
     margin-top: 40px;
@@ -710,7 +686,6 @@ footer p {
     color: var(--color-text-dim);
 }
 
-/* --- 16. Responsive Media Queries --- */
 @media (max-width: 992px) {
     .competences-grid, .interets-grid {
         grid-template-columns: repeat(2, 1fr);
