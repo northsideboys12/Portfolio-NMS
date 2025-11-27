@@ -27,6 +27,9 @@ document.addEventListener('DOMContentLoaded', function() {
             'projet3-titre': 'Ce Portfolio', 'projet3-date': 'Octobre 2025',
             'projet4-titre': "Jeu 'Cailloux'", 'projet4-date': 'Mars 2025',
             'projet5-titre': "Jeu 'Premon'", 'projet5-date': 'Mai 2025',
+            'ref-titre': '[ RÉFÉRENCES ]',
+            'ref1-role': "Coordinatrice Internationale à l'USMB",
+            'ref2-role': "Professeur de conception UML et BDD",
         },
         'en': {
             'nav-profil': 'Profile', 'nav-competences': 'Skills', 'nav-education': 'Education',
@@ -54,6 +57,9 @@ document.addEventListener('DOMContentLoaded', function() {
             'projet3-titre': 'This Portfolio', 'projet3-date': 'October 2025',
             'projet4-titre': "'Cailloux' Game", 'projet4-date': 'March 2025',
             'projet5-titre': "'Premon' Game", 'projet5-date': 'May 2025',
+            'ref-titre': '[ REFERENCES ]',
+            'ref1-role': "International Coordinator at USMB",
+            'ref2-role': "Professor of UML Design and Databases",
         }
     };
 
